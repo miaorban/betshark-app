@@ -6,7 +6,7 @@
 
 ## Az alkalmazásról
 
-A **BetShark** egy sportfogadás-elemző mobilalkalmazás, amely naponta feldolgozza a közelgő sportesemények fogadási piacait, és minden kimenetelre pontszámot, odds-összehasonlítást, valamint szöveges elemzést készít. A cél, hogy a felhasználó egy helyen, érthetően lássa, mely fogadások kínálnak valódi értéket — anélkül, hogy ezt saját maga kelljen kikalkulálnia.
+A **BetShark** egy labdarúgás-fogadás elemző mobilalkalmazás, amely naponta feldolgozza a közelgő focimeccsek fogadási piacait, és minden kimenetelre pontszámot, odds-összehasonlítást, valamint szöveges elemzést készít. A cél, hogy a felhasználó egy helyen, érthetően lássa, mely fogadások kínálnak valódi értéket — anélkül, hogy ezt saját maga kelljen kikalkulálnia.
 
 Az alkalmazás iOS és Android platformon érhető el, magyar és angol nyelven.
 
@@ -80,9 +80,6 @@ Egy piacra koppintva megnyílik a részletes nézet, amely minden kimenetelhez a
 **Szöveges elemzés (~10 mondat):**
 Az alkalmazás minden kimenetelhez szöveges indoklást is megjelenít. Ez szakmai szempontokat emel ki: a csapatok aktuális formáját, sérüléseket, egymás elleni mérleget és az eredményt befolyásoló egyéb tényezőket. Az elemzés független szakértői véleményként olvasható.
 
-**Bukméker linkek:**
-A nézetben megjelennek a partnerbukmékereknél elérhető legmagasabb odds-okra mutató linkek, amelyekkel a felhasználó közvetlenül el tud navigálni a fogadáshoz.
-
 ---
 
 ## Toplista — Prémium funkció (2 990 Ft / hó)
@@ -102,7 +99,7 @@ A Toplista a nap legjobb fogadási lehetőségeinek összesített napi ranglist�
 | **Value** | Cápa ikon + ezüst „Value" felirat | Az odds érdemben meghaladja a kalkulált valószínűséget |
 | **Strong Value** | Cápa ikon + arany „Strong Value" felirat | Az odds kiemelkedően meghaladja a kalkulált valószínűséget |
 
-Egy elemre koppintva megnyílik a kimenetel teljes részletes nézete (pontszámok, szöveges elemzés, bukméker linkek) — ugyanúgy, mint a főképernyőn.
+Egy elemre koppintva megnyílik a kimenetel teljes részletes nézete (pontszámok, szöveges elemzés) — ugyanúgy, mint a főképernyőn.
 
 ---
 
@@ -130,12 +127,10 @@ Az alábbi pontokon az ügyfél visszajelzése szükséges a véglegesítéshez:
 |---|---|
 | 1 | Szükséges-e webes előfizetési lehetőség is, vagy elegendő az App Store / Play Store? |
 | 2 | A megjelenő bajnokságok sorrendje egy rögzített lista legyen, vagy ezt a jövőben rugalmasan lehessen módosítani? |
-| 3 | Milyen sportágakat fedjen le az alkalmazás? Csak labdarúgás, vagy más sportágak is? |
-| 4 | Az előfizetési képernyő hol legyen elérhető az alkalmazáson belül? (pl. Toplista zárt képernyőjéről, profil menüből, stb.) |
-| 5 | Mely bukmékerekre mutassanak a linkek? Legyen egy rögzített lista, vagy mindig az aktuálisan legjobb odds-ot kínáló bukméker jelenjen meg? |
-| 6 | A prototípus hónapban a Toplista hogyan jelenjen meg a nem előfizető felhasználóknak? **(a)** Teljesen rejtve, vagy **(b)** látható, de zárolt képernyőként, előfizetési felhívással? |
-| 7 | Szükségesek-e push értesítések? (pl. „A mai tippek megérkeztek", vagy értesítés kiemelkedő value fogadásról) |
-| 8 | Szükséges-e egy kezelőfelület az üzemeltető számára? (pl. felhasználók és előfizetések áttekintése) |
+| 3 | Az előfizetési képernyő hol legyen elérhető az alkalmazáson belül? (pl. Toplista zárt képernyőjéről, profil menüből, stb.) |
+| 4 | A prototípus hónapban a Toplista hogyan jelenjen meg a nem előfizető felhasználóknak? **(a)** Teljesen rejtve, vagy **(b)** látható, de zárolt képernyőként, előfizetési felhívással? |
+| 5 | Szükségesek-e push értesítések? (pl. „A mai tippek megérkeztek", vagy értesítés kiemelkedő value fogadásról) |
+| 6 | Szükséges-e egy kezelőfelület az üzemeltető számára? (pl. felhasználók és előfizetések áttekintése) |
 
 ---
 

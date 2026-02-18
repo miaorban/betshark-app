@@ -26,7 +26,7 @@ A **BetShark** egy sportfogadás-elemző mobilalkalmazás, amely egy AI-vezérel
 - **Magyar** (elsődleges)
 - **Angol**
 
-A nyelv az alkalmazás beállításaiban váltható. Alapértelmezetten az eszköz rendszernyelvét veszi fel.
+A nyelv az alkalmazás beállításaiban váltható. Alapértelmezetten magyar.
 
 ---
 
@@ -151,6 +151,8 @@ Ez a komponens a **Python adatgyűjtő és DB-frissítő** (ld. 13.3. fejezet). 
 
 Ha a napi 400 kimenet nem elegendő az összes elérhető esemény lefedésére, a **nagyobb ligákat kell előnyben részesíteni**, hogy adatgazdag meccsek ne szoruljanak ki kisebb bajnokságok miatt.
 
+**Lefedett sportág:** kizárólag **labdarúgás**.
+
 > **[KÉRDÉS 2]** A ligaprioritás egy statikus, előre meghatározott lista (pl. Top 5 európai futball liga > egyéb európai ligák > világ többi része), vagy admin felületen legyen konfigurálható?
 ---
 
@@ -233,9 +235,7 @@ Az elfogadás eszközönként/fiókonként rögzítésre kerül.
 - **Tilos megemlíteni** a Sportmonks predikciós százalékait vagy bármely belső adatforrást
 - Független szakértői véleményként olvasható
 
-**Bukméker linkek** — partnerbukmékereknél elérhető legjobb oddsokra mutató hivatkozások
-
-> **[KÉRDÉS 5]** Mely bukmékerekre mutassanak a linkek? Rögzített lista, vagy dinamikusan az adott kimenetelnél legjobb oddsot kínáló bukméker jelenik meg?
+**Bukméker linkek** — az első verzióban nem szerepel, tervezett jövőbeli funkció. Implementálásakor rögzített bukméker lista alapján fog működni.
 
 ---
 
@@ -258,7 +258,6 @@ A nap legjobban pontozó fogadási kimeneteleinek ranglistája.
 | Nincs jelölés | Nincs külön indikátor |
 
 - Egy elemre koppintva megnyílik a Kimenetel részletei nézet (azonos a 3. szinttel).
-- Reklámok a lista alján.
 
 > **[KÉRDÉS 7]** A prototípus hónapban hogyan jelenjen meg a Toplista a nem előfizető felhasználóknak?
 > - **(a)** Teljesen rejtve a menüből
@@ -385,12 +384,10 @@ A BetShark logó cápa motívumot alkalmaz narancssárga/fekete színvilágban. 
 |---|---|
 | 1 | Szükséges-e webes fizetési lehetőség (pl. Stripe), vagy elegendő az App Store / Play Store IAP? |
 | 2 | A ligaprioritás statikus lista, vagy admin felületen konfigurálható? |
-| 3 | Milyen sportágakat fed le az alkalmazás? Csak labdarúgás, vagy más sportágak is? |
-| 4 | Az előfizetés funkció hol érhető el az alkalmazáson belül? |
-| 5 | Mely bukmékerekre mutassanak a linkek? Rögzített lista vagy dinamikus? |
-| 6 | Hogyan jelenjen meg a Toplista nem előfizető felhasználóknak a prototípus hónapban? |
-| 7 | Szükségesek-e push értesítések? |
-| 8 | Szükséges-e admin / backend kezelőfelület? |
+| 3 | Az előfizetés funkció hol érhető el az alkalmazáson belül? |
+| 4 | Hogyan jelenjen meg a Toplista nem előfizető felhasználóknak a prototípus hónapban? |
+| 5 | Szükségesek-e push értesítések? |
+| 6 | Szükséges-e admin / backend kezelőfelület? |
 
 ---
 
